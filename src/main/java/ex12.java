@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/*
+ *  UCF COP3330 Fall 2021 Assignment 12 Solution
+ *  Copyright 2021 Chase Cutshall
+ */
 public class ex12 {
     public static void main(String[] args) {
 
@@ -30,6 +33,6 @@ public class ex12 {
         double interest = b / 100;
         double amount = Math.round(a*(1 + interest * c) * 100d) / 100d;
 
-        System.out.print(amount);
+        System.out.print("After " +c+ " years at " + interest + "% the investment will be worth $" + amount);
     }
 }
